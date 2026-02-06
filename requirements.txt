@@ -1,7 +1,10 @@
 pandas
 numpy
-flask
+seaborn
+matplotlib
 scikit-learn
 catboost
-xgboost==2.0.3
-gunicorn
+xgboost
+Flask
+
+#-e .
