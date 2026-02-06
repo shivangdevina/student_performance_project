@@ -21,7 +21,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: student-performance    # MUST match what you named it in Step 2
+          application_name: student_performance    # MUST match what you named it in Step 2
           environment_name: Studentperformance-env # MUST match what you copied in Step 2
           version_label: "ver-${{ github.sha }}"
           region: us-east-1                        # CHANGE THIS if your URL is not us-east-1
