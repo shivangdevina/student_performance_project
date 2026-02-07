@@ -2,6 +2,6 @@ pandas
 numpy
 flask
 scikit-learn
-catboost 
+catboost --no-deps
 xgboost==2.0.3
 gunicorn
