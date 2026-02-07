@@ -1,7 +1,6 @@
-pandas
-numpy
-flask
-scikit-learn
-catboost 
+pandas==2.0.3
+numpy==1.24.3
+flask==2.3.2
+scikit-learn==1.3.0
 xgboost==2.0.3
-gunicorn
+gunicorn==21.2.0
