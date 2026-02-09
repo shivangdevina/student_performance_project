@@ -1,3 +1,4 @@
+import os
 import sys
 import pandas as pd
 from src.exception import CustomException
@@ -16,8 +17,11 @@ class PredictPipeline:
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
             print("After Loading")
+            print("Before Transform")
             data_scaled=preprocessor.transform(features)
+            print("After Transform")
             preds=model.predict(data_scaled)
+            print("After Prediction Result:", preds)
             return preds
         
         except Exception as e:
