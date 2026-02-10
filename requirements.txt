@@ -5,4 +5,3 @@ scikit-learn==1.2.1
 xgboost==2.0.3
 dill
 catboost
-gunicorn==21.2.0
